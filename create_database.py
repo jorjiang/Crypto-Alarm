@@ -9,6 +9,7 @@ from get_git_data import get_git as gg
 from readbitinfochart import get_coin_data as gc
 import time
 from tqdm import tqdm
+import numpy as np
 
 def create_database():
     topic_list = ['transactions', 'Size', 'sentbyaddress', 'difficulty',
@@ -26,11 +27,11 @@ def create_database():
     for coin in tqdm(coin_list):
         coin_data = gc(topic_list, coin)
         try:
-            coin_data = coin_data.join(git_data[coin.upper()])
+            coin_data = coin_data.join(git_data[coin.upper()].rename('git_activity'))
         except:
-            pass
+            coin_data['git_activity'] = np.nan
         
-        coin_data.to_sql(name = coin, con = connection, if_exists = 'replace')
+        coin_data.fillna(0).to_sql(name = coin, con = connection, if_exists = 'replace')
         time.sleep(0.5)
     
     git_data.to_sql(name = 'github_activity', con = connection, if_exists = 'replace')

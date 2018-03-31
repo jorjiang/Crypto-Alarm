@@ -80,6 +80,13 @@ def get_coin_data(topic, coin):
             df = pd.DataFrame(df)
             df.columns = ['Date', columns[i]]
             df = df.set_index('Date')
+            
+            s = df[columns[i]]
+            if s.isnull().all():
+                s.fillna(0)
+            else:
+                s.iloc[-1] = s[s.last_valid_index()]
+                s = s.interpolate().fillna(0)
             if i == 0:
                 df_f = df
             else:
@@ -93,4 +100,5 @@ def get_coin_data(topic, coin):
             na_columns.append(t)
     for t in na_columns:
         df_f[t] = np.nan
-    return df_f
+        
+    return df_f.fillna(0)

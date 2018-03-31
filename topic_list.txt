@@ -1,0 +1,6 @@
+'transactions', 'Size', 'sentbyaddress', 'difficulty',
+                  'hashrate', 'price', 'mining_profitability', 'sentinusd', 
+                  'transactionfees', 'median_transaction_fee', 'confirmationtime', 
+                  'marketcap', 'transactionvalue', 'mediantransactionvalue', 
+                  'tweets', 'activeaddresses', 'top100cap'
+    
