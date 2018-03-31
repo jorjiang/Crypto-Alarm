@@ -1,2 +1,2 @@
 # crypto_alarm
-[[Gollum|Untitled.pdf]]
+https://github.com/jorjiang/crypto_alarm/blob/master/Untitled.pdf
