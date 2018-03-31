@@ -13,16 +13,19 @@ import pandas as pd
 from sklearn.preprocessing import scale 
 from numpy.linalg import norm
 import numpy as np
-
-if __name__ == '__main__':
-    topic_list = ['transactions', 'Size', 'sentbyaddress', 'difficulty',
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set_style('ticks')
+topic_list = ['transactions', 'Size', 'sentbyaddress', 'difficulty',
                   'hashrate', 'price', 'mining_profitability', 'sentinusd', 
                   'transactionfees', 'median_transaction_fee', 'confirmationtime', 
                   'marketcap', 'transactionvalue', 'mediantransactionvalue', 
                   'tweets', 'activeaddresses', 'top100cap']
     
     
-    coin_list = 'btc eth ltc xrp bch neo etc usdt bnb trx eos iot xlm xmr ada dash icx zec omg ven qtum dgd cnd lsk xem nbt gvt waves btg nebl mtl snt srn xvg strat bcpt noah enj vibe bqx storm ldc doge sub adx wtc bcd mco eng zrx powr sc gup fct hsr trig'.split(' ')
+coin_list = 'btc eth ltc xrp bch neo etc usdt bnb trx eos iot xlm xmr ada dash icx zec omg ven qtum dgd cnd lsk xem nbt gvt waves btg nebl mtl snt srn xvg strat bcpt noah enj vibe bqx storm ldc doge sub adx wtc bcd mco eng zrx powr sc gup fct hsr trig'.split(' ')
+if __name__ == '__main__':
+    
 #update database if the data is 1 day old
     if datetime.now() - timedelta(days = 7) >= datetime.fromtimestamp(getmtime('crypto.db')):
         create_database()
@@ -44,7 +47,6 @@ def fund_value_change(coin, days, starting_date):
             coin_fund_scaled = scale(coin[col])
             change = coin_fund_scaled[starting_date_index] - coin_fund_scaled[starting_date_index-days]
         except Exception as e:
-            print('date out of range, no historical data!')
             change = 0
         if (col == 'confirmationtime') | (col == 'median_transaction_fee'):
         #big confirmationtime and median_transaction_fee decrease utility of a coin
@@ -68,7 +70,6 @@ def sent_value_change(coin, days, starting_date):
             coin_fund_scaled = scale(coin[col])
             change = coin_fund_scaled[starting_date_index] - coin_fund_scaled[starting_date_index-days]
         except Exception as e:
-            print('date out of range, no historical data!')
             change = 0
         if (col == 'confirmationtime') | (col == 'median_transaction_fee'):
         #big confirmationtime and median_transaction_fee decrease utility of a coin
@@ -105,3 +106,13 @@ def get_top_hyper(n = 5, days = 30, starting_date = pd.Timestamp.today()):
     df = get_value_all_coins(days = days, starting_date = starting_date)
     return df.nlargest(n, 'hype')['hype']
 
+def get_top_undervalued(n = 5, days = 30, starting_date = pd.Timestamp.today()):
+    df = get_value_all_coins(days = days, starting_date = starting_date)
+    df_value = (df['fundamental'] - df['hype']).nlargest(n = n)
+    return df_value
+
+
+def get_top_overvalued(n = 5, days = 30, starting_date = pd.Timestamp.today()):
+    df = get_value_all_coins(days = days, starting_date = starting_date)
+    df_value = (-df['fundamental'] + df['hype']).nlargest(n = n)
+    return df_value
