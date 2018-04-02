@@ -11,8 +11,8 @@
  2. It's NOT a professional financial adviser, you should still do your own research on individual projects you are planning to invest in. The metrics used in the algorithm is highly subjective.
  
 > More over self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:
-> **Mastering Bitcoin: Unlocking Digital Cryptocurrencies** by Andreas Antonopoulos
->  **Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond** by Chris Burniske and Jack Tatar
+``` **Mastering Bitcoin: Unlocking Digital Cryptocurrencies** by Andreas Antonopoulos```
+``` **Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond** by Chris Burniske and Jack Tatar```
 
 ### What Crypto Alarm is:
 1. It is an algorithm that will help you monitor critical metrics relating to the fundamental value of a crypto asset. So instead of checking on all hundreds of projects manually by yourself, the algorithm pre-select candidates with the most potential based on real time data for you, so you can use your limited time and focus on the right project and never let a good project pass you by.
