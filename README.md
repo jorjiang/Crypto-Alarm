@@ -13,6 +13,7 @@
 > More over self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:
 
  **Mastering Bitcoin: Unlocking Digital Cryptocurrencies** by Andreas Antonopoulos
+ 
  **Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond** by Chris Burniske and Jack Tatar
 
 ### What Crypto Alarm is:
