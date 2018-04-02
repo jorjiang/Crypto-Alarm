@@ -1,7 +1,7 @@
 # Crypto Alarm: Concept and Demo
 
->This is not an official document, the original is in Chinese, this is just a rough translation
-
+>This is not an official documentation, the original is in Chinese, this is just a rough translation
+##### A simple visulization of how the system work
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/Entity%20Relationship%20Diagram.jpeg)
 
 ## Introduction: what is Crypto Alarm and what is it used for
@@ -10,9 +10,11 @@
  1. It's NOT a technical analysis tool that will give you notifications on trading signals, in fact crypto market is such a nova and volatile market we don't even recommend day trading unless you are a veteran or have access to insider information. BUY and HODL on projects with potential usecases in the future is the way to go.
  2. It's NOT a professional financial adviser, you should still do your own research on individual projects you are planning to invest in. The metrics used in the algorithm is highly subjective.
  
- >More over self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:
-> **Mastering Bitcoin: Unlocking Digital Cryptocurrencies** by Andreas Antonopoulos
->  **Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond** by Chris Burniske and Jack Tatar
+> **Moreover self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:**
+
+ **Mastering Bitcoin: Unlocking Digital Cryptocurrencies** by Andreas Antonopoulos
+ 
+ **Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond** by Chris Burniske and Jack Tatar
 
 ### What Crypto Alarm is:
 1. It is an algorithm that will help you monitor critical metrics relating to the fundamental value of a crypto asset. So instead of checking on all hundreds of projects manually by yourself, the algorithm pre-select candidates with the most potential based on real time data for you, so you can use your limited time and focus on the right project and never let a good project pass you by.
@@ -27,7 +29,7 @@
 5. List the top 10 undervalued and overvalued projects by **subtracting** the two scores above.
 
 ### What metrics are used
-Again this is highly subjective and should be taken with a grain of salt. Bellow are the Metrics we have picked and the reason why:
+> ***Again we can not emphasis enought that this is highly subjective and should be taken with a grain of salt. Bellow are the Metrics we have picked and the reason why:***
 
 #### Metrics 1: GitHub Activities
 Despite the Stories and Marketing show circuling around the internet, Never forget this: Ultimately the ***CORE value*** of a cryptocurrency lies in its **Protocol** and various ***Applications*** surrounding it, in other words: it's a **Software**, more precisely **Open sourced Software**. And the core value of a software comes from the developers behind it. 
@@ -68,3 +70,16 @@ Those are highly subjective, so we don't put too much weight on them:
 
  
 ## Demo:
+### Undervalued Top 10 
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/Top10undervalued.png)
+### Hyper Top 10
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/Top10hype.png)
+### Fundamental metrics correlation visualization, Bitcoin
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/correlationmatrix.png)
+### Fundamental metrics correlation visualization, Ethererum
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/correlation%20matrxi%20eth.png)
+### Market analysis visualization
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/marketanalysis.png)
+### Fundamental analysis visualization
+!Median transaction value is a good sign of a normal growth and an abnormal hype
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/fundamental%20analysis.png)
