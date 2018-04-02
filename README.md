@@ -11,6 +11,7 @@
  2. It's NOT a professional financial adviser, you should still do your own research on individual projects you are planning to invest in. The metrics used in the algorithm is highly subjective.
  
 > More over self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:
+
 ``` **Mastering Bitcoin: Unlocking Digital Cryptocurrencies** by Andreas Antonopoulos```
 ``` **Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond** by Chris Burniske and Jack Tatar```
 
