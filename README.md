@@ -29,7 +29,7 @@
 5. List the top 10 undervalued and overvalued projects by **subtracting** the two scores above.
 
 ### What metrics are used
-Again this is highly subjective and should be taken with a grain of salt. Bellow are the Metrics we have picked and the reason why:
+> ***Again we can not emphasis enought that this is highly subjective and should be taken with a grain of salt. Bellow are the Metrics we have picked and the reason why:**
 
 #### Metrics 1: GitHub Activities
 Despite the Stories and Marketing show circuling around the internet, Never forget this: Ultimately the ***CORE value*** of a cryptocurrency lies in its **Protocol** and various ***Applications*** surrounding it, in other words: it's a **Software**, more precisely **Open sourced Software**. And the core value of a software comes from the developers behind it. 
