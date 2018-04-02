@@ -68,9 +68,16 @@ Those are highly subjective, so we don't put too much weight on them:
 
  
 ## Demo:
+### Undervalued Top 10 
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/Top10undervalued.png)
+### Hyper Top 10
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/Top10hype.png)
+### Fundamental metrics correlation visualization, Bitcoin
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/correlationmatrix.png)
+### Fundamental metrics correlation visualization, Ethererum
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/correlation%20matrxi%20eth.png)
+### Market analysis visualization
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/marketanalysis.png)
+### Fundamental analysis visualization
+!Median transaction value is a good sign of a normal growth and an abnormal hype
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/fundamental%20analysis.png)
