@@ -10,7 +10,7 @@
  1. It's NOT a technical analysis tool that will give you notifications on trading signals, in fact crypto market is such a nova and volatile market we don't even recommend day trading unless you are a veteran or have access to insider information. BUY and HODL on projects with potential usecases in the future is the way to go.
  2. It's NOT a professional financial adviser, you should still do your own research on individual projects you are planning to invest in. The metrics used in the algorithm is highly subjective.
  
-> **More over self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:**
+> **Moreover self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:**
 
  **Mastering Bitcoin: Unlocking Digital Cryptocurrencies** by Andreas Antonopoulos
  
