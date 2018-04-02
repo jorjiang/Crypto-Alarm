@@ -68,3 +68,9 @@ Those are highly subjective, so we don't put too much weight on them:
 
  
 ## Demo:
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/Top10undervalued.png)
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/Top10hype.png)
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/correlationmatrix.png)
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/correlation%20matrxi%20eth.png)
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/marketanalysis.png)
+![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/image/fundamental%20analysis.png)
