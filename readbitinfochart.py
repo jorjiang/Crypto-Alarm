@@ -87,6 +87,7 @@ def get_coin_data(topic, coin):
             else:
                 s.iloc[-1] = s[s.last_valid_index()]
                 s = s.interpolate().fillna(0)
+            df[columns[i]] = s
             if i == 0:
                 df_f = df
             else:
