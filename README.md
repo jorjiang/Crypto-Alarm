@@ -1,7 +1,7 @@
 # Crypto Alarm: Concept and Demo
 
 >This is not an official documentation, the original is in Chinese, this is just a rough translation
-
+##### A simple visulization of how the system work
 ![Alt Text](https://github.com/jorjiang/Crypto-Alarm/blob/master/Entity%20Relationship%20Diagram.jpeg)
 
 ## Introduction: what is Crypto Alarm and what is it used for
