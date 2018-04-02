@@ -1,6 +1,8 @@
 # Crypto Alarm: Concept and Demo
 
 >This is not an official document, the original is in Chinese, this is just a rough translation
+![](Entity Relationship Diagram.jpeg)
+Format: ![Alt Text](url)
 
 ## Introduction: what is Crypto Alarm and what is it used for
 ### What Crypto Alarm is NOT:
