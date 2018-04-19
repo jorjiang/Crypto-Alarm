@@ -8,7 +8,7 @@ jorjiang
 ## Introduction: what is Crypto Alarm and what is it used for
 ### What Crypto Alarm is NOT:
 
- 1. It's NOT a technical analysis tool that will give you notifications on trading signals, in fact crypto market is such a nova and volatile market we don't even recommend day trading unless you are a veteran or have access to insider information. BUY and HODL on projects with potential usecases in the future is the way to go.
+ 1. It's NOT a technical analysis tool that will give you notifications on trading signals, in fact crypto market is such a volatile market we don't even recommend day trading unless you are a veteran or have access to insider information. BUY and HODL on projects with potential usecases in the future is the way to go.
  2. It's NOT a professional financial adviser, you should still do your own research on individual projects you are planning to invest in. The metrics used in the algorithm is highly subjective.
  
 > **Moreover self education is The No.1 important thing in crypto investing, we recommend reading following 2 books before jump in:**
